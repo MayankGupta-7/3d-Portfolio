@@ -50,7 +50,7 @@ import authRoutes from './routes/authRoutes.js';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5001;
+
 
 await connectDB(); 
 
